@@ -93,7 +93,7 @@ class AppTheme {
           iconTheme: const IconThemeData(color: primaryCyan, size: 24)),
 
       // Card theme for contextual information display
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
           color: surfaceDark,
           elevation: 4,
           shadowColor: shadowColor,
@@ -235,7 +235,7 @@ class AppTheme {
       sliderTheme: SliderThemeData(activeTrackColor: primaryCyan, thumbColor: primaryCyan, overlayColor: primaryCyan.withAlpha(51), inactiveTrackColor: borderColor, valueIndicatorColor: primaryCyan, valueIndicatorTextStyle: GoogleFonts.jetBrainsMono(color: backgroundBlack, fontSize: 14, fontWeight: FontWeight.w500)),
 
       // Tab bar theme for voice assistant sections
-      tabBarTheme: TabBarTheme(labelColor: primaryCyan, unselectedLabelColor: textSecondary, indicatorColor: primaryCyan, indicatorSize: TabBarIndicatorSize.label, labelStyle: GoogleFonts.inter(fontSize: 14, fontWeight: FontWeight.w500, letterSpacing: 0.5), unselectedLabelStyle: GoogleFonts.inter(fontSize: 14, fontWeight: FontWeight.w400, letterSpacing: 0.25)),
+      tabBarTheme: TabBarThemeData(labelColor: primaryCyan, unselectedLabelColor: textSecondary, indicatorColor: primaryCyan, indicatorSize: TabBarIndicatorSize.label, labelStyle: GoogleFonts.inter(fontSize: 14, fontWeight: FontWeight.w500, letterSpacing: 0.5), unselectedLabelStyle: GoogleFonts.inter(fontSize: 14, fontWeight: FontWeight.w400, letterSpacing: 0.25)),
 
       // Tooltip theme for voice command help
       tooltipTheme: TooltipThemeData(
@@ -250,7 +250,7 @@ class AppTheme {
       snackBarTheme: SnackBarThemeData(backgroundColor: surfaceDark, contentTextStyle: GoogleFonts.inter(color: textPrimary, fontSize: 14, fontWeight: FontWeight.w400), actionTextColor: primaryCyan, behavior: SnackBarBehavior.floating, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12.0), side: const BorderSide(color: borderColor)), elevation: 8),
 
       // Dialog theme for voice confirmations
-      dialogTheme: DialogTheme(backgroundColor: surfaceDark, surfaceTintColor: Colors.transparent, elevation: 16, shadowColor: shadowColor, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16.0), side: const BorderSide(color: borderColor)), titleTextStyle: GoogleFonts.orbitron(color: textPrimary, fontSize: 20, fontWeight: FontWeight.w700, letterSpacing: 0.5), contentTextStyle: GoogleFonts.inter(color: textSecondary, fontSize: 16, fontWeight: FontWeight.w400, letterSpacing: 0.25)),
+      dialogTheme: DialogThemeData(backgroundColor: surfaceDark, surfaceTintColor: Colors.transparent, elevation: 16, shadowColor: shadowColor, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16.0), side: const BorderSide(color: borderColor)), titleTextStyle: GoogleFonts.orbitron(color: textPrimary, fontSize: 20, fontWeight: FontWeight.w700, letterSpacing: 0.5), contentTextStyle: GoogleFonts.inter(color: textSecondary, fontSize: 16, fontWeight: FontWeight.w400, letterSpacing: 0.25)),
 
       // Bottom sheet theme for contextual voice options
       bottomSheetTheme: const BottomSheetThemeData(backgroundColor: surfaceDark, surfaceTintColor: Colors.transparent, elevation: 16, shape: RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(24.0))), showDragHandle: true, dragHandleColor: borderColor, dragHandleSize: Size(40, 4)),
